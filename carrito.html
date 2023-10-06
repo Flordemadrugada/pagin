@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Carrito de Compras</h1>
+    </header>
+    <main>
+        <div class="product">
+            <h2>Producto 1</h2>
+            <p>Precio: $10.00</p>
+            <button class="add-to-cart" data-price="10.00">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <h2>Producto 2</h2>
+            <p>Precio: $15.00</p>
+            <button class="add-to-cart" data-price="15.00">Agregar al carrito</button>
+        </div>
+    </main>
+    <aside>
+        <h2>Carrito</h2>
+        <ul id="cart">
+            <!-- Los elementos seleccionados se agregarán aquí -->
+        </ul>
+        <p>Total: $<span id="total">0.00</span></p>
+    </aside>
+    <script src="scripts.js"></script>
+</body>
+</html>
